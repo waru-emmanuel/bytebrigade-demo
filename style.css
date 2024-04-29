@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(74, 177, 67); /* Light gray background */
+}
+
+.title {
+    text-align: center;
+    color: rgba(142, 14, 142, 0.995); /* purple text color */
+}
+#restartButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(227, 78, 64); /*red  button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+#restartButton:hover{
+    background-color: rgb(97, 23, 16); /* dark red color */
+}
+.players {
+    display: flex;
+    font-display: black;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.player {
+    text-align: center;
+    font-style: italic;
+}
+
+.deck {
+    border: 2px solid #333; /* Dark gray border */
+    width: 120px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff; /* White card background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 10% auto; /* Center the image within the card */
+}
+
+.score {
+    color: #333; /* Dark gray text color */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#drawButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(226, 193, 150); /* burlywood button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#drawButton:hover {
+    background-color: rgb(155, 124, 85); /* Darker burlywood on hover */
+}
+
+.round-tracker {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    color: #e00f0ffb; /* Dark gray text color */
+}
+
+#options {
+    margin-top: 35px;
+}
+
+#options label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark gray text color */
+}
+
+#options input[type="number"],
+#options select,
+#options input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
